@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="screen">
+        <input type="text" placeholder="0">
+    </div>
+    <div class="buttons">
+        <div class="mobile">
+            <button onclick="C()" class="clear">C</button>
+            <button onclick="del()">Del</button>
+            <button class="button">x</button>
+            <button class="button">÷</button>
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button onclick="screen.value=eval(screen.value/100)">%</button>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">-</button>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">+</button>
+            <button onclick="pi()">π</button>
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button onclick="screen.value=eval(screen.value)" class="equal">=</button>
+        </div>
+        <div class="wider-screen">
+            <button onclick="sqrt()">√</button>
+            <button onclick="sin()">sin</button>
+            <button onclick="cos()">cos</button>
+            <button onclick="tan()">tan</button>
+            <button onclick="e()">e</button>
+            <button onclick="log()">log</button>
+            <button onclick="asin()">sin<span style="position: relative; bottom: .2em;">-1</span></button>
+            <button onclick="acos()">cos<span style="position: relative; bottom: .2em;">-1</span></button>
+            <button onclick="atan()">tan<span style="position: relative; bottom: .2em;">-1</span></button>
+            <button onclick="pow()">x<span style="position: relative; bottom: .5em;">y</span></button>
+            <button class="button">(</button>
+            <button class="button">)</button>
+            <button onclick="pow2()">x<span style="position: relative; bottom: .4em;">2</span></button>
+            <button onclick="pow1()">x<span style="position: relative; bottom:.4em;">-1</span></button>
+            <button onclick="cosh()">cosh</button>
+            <button onclick="tanh()">tanh</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

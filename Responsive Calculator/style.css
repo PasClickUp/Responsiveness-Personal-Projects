@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+input {
+    height: 4rem;
+    width: 92%;
+    font-size: 3rem;
+    text-align: right;
+    border: none;
+    outline: none;
+}
+
+.wider-screen {
+    display: none;
+}
+
+.mobile {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    background-color: #cccccc;
+    padding: .9rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: .1sec;
+    margin: 0.5rem;
+}
+
+button:hover {
+    background-color: gray;
+
+}
+
+.clear {
+    background-color: red;
+}
+
+.clear:hover {
+    background-color: red;
+}
+
+.equal {
+    background-color: #00acde;
+}
+
+.equal:hover {
+    background-color: #00acde;
+}
+
+@media only screen and (min-width:47rem) {
+    .wider-screen {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .buttons {
+        display: flex;
+    }
+
+    .mobile {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    button {
+        background-color: #cccccc;
+        padding: .3rem;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 1.5rem;
+        transition: .1sec;
+        margin: .2rem;
+    }
+
+    .mobile button {
+        padding: .9rem;
+    }
+
+    input {
+        width: 88%;
+    }
+}
