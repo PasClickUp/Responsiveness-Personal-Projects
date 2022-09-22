@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+}
+
+form label {
+    font-size: 0.7rem;
+}
+
+form #space {
+    border: none;
+    outline: none;
+    border-bottom: 0.1rem solid gray;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+form #add {
+    background: #00a2a9;
+    color: white;
+    padding: 0.4rem 1rem;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.tasks h5 {
+    font-size: 1rem;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border: 0.1rem solid #bebdbe;
+    margin-bottom: 0.1rem;
+}
+
+button {
+    margin-top: 0.1rem;
+    padding: 0.5rem 1rem;
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+}
