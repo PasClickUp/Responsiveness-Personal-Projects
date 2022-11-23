@@ -58,7 +58,7 @@ body {
 }
 
 .option.correct {
-    background-color: green;
+    background-color: lightgreen;
 }
 
 .option.wrong {

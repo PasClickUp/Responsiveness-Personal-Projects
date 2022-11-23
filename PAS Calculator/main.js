@@ -19,7 +19,7 @@ function C() {
 }
 
 function pi() {
-    screen.value = 3.142857142857143
+    screen.value = 3.14
 }
 
 function del() {
@@ -43,7 +43,7 @@ function tan() {
 }
 
 function e() {
-    screen.value = 2.718
+    screen.value = 2.72
 }
 
 function log() {

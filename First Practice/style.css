@@ -31,13 +31,16 @@
     line-height: 2.5rem;
 }
 
-.img-info button {
+.img-info button,
+.top-reg-btn {
     margin: 0rem 1.875rem 1.25rem;
     font-size: 1rem;
     font-weight: 800;
     background: green;
     color: white;
     padding: 1rem 1.875rem 1.25rem;
+    border-radius: 2rem;
+    border: none;
 }
 
 .img-banner {
@@ -92,4 +95,25 @@
     .img-info p {
         padding: 1.25rem 0rem 0rem 1.875rem;
     }
+}
+
+.ibnib {
+    background: none;
+    border: none;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #00b0bb;
+}
+
+.ibnib span {
+    color: #ffbd00;
+}
+
+.benefits,
+.about,
+.faqs {
+    border: none;
+    background: none;
+    font-weight: 800;
+    font-size: 1rem;
 }
